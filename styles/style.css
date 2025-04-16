@@ -1,0 +1,201 @@
+body {
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    /* flex-direction: row; */
+
+    display: grid;
+    /* grid-template-columns: 1fr; */
+    /* grid-template-rows: 1fr; */
+    grid-area: 1fr 1fr;
+    place-items: center;
+    /* place-content: center; */
+
+    height: 100dvh;
+    width: 100dvw;
+
+    margin: 0;
+    padding: 0;
+
+    --ease-steps: steps(50);
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.soundwave {
+    width: 315px;
+    height: 315px;
+    border: black 1px solid;
+    position: relative;
+
+    margin-bottom: 3em;
+
+    background-color: rgb(18, 18, 49);
+
+    p{
+        animation:fade .1s linear 5s 1 forwards;
+    }
+}
+
+.opbouw{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation:fade .1s linear 5s 1 forwards;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        scale: 0;
+    }
+}
+.base {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(81, 11, 46);
+    animation: wave-grow 2s both linear, base-updown .2s var(--ease-steps) infinite alternate;
+    position: absolute;
+
+    color:white ;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+@keyframes base-updown {
+    0% {
+        transform: scaleY(1);
+    }
+
+    100% {
+        transform: scaleY(.9);
+    }
+}
+@keyframes base {
+    0% {
+        height: 170px;
+    }
+
+    20% {
+        height: 180px;
+    }
+
+    30% {
+        height: 150px;
+    }
+
+    40% {
+        height: 180px;
+    }
+
+    50% {
+        height: 150px;
+    }
+
+    60% {
+        height: 180px;
+    }
+
+    90% {
+        height: 190px;
+    }
+
+    100% {
+        height: 170px;
+    }
+}
+
+.line {
+    width: 100%;
+    height: 200px;
+    border-top: #d96507 6px solid;
+    border-bottom: #d96507 6px solid;
+    animation: wave-updown .2s infinite var(--ease-steps) alternate, wave-grow both 2s var(--ease-steps) 2s;
+    position: absolute;
+    opacity: 80%;
+
+    font-size: 1.2em;
+    font-style: italic;
+    color: hotpink;
+
+}
+
+@keyframes wave-grow {
+    0% {
+        height: 5%;
+    }
+    20% {
+        height: 20%;
+    }
+    30% {
+        height: 10%;
+    }
+    40% {
+        height: 40%;
+    }
+    50% {
+        height: 15%;
+    }
+    60% {
+        height: 60%;
+    }
+    70% {
+        height: 20%;
+    }
+    80% {
+        height: 80%;
+    }
+    90% {
+        height: 25%;
+    }
+    100% {
+        height: 100%;
+    }
+}
+
+@keyframes wave-updown {
+    0% {
+        border-top: hotpink 6px solid;
+        border-bottom: hotpink 6px solid;
+    }
+    100% {
+        border-top: deeppink 20px solid;
+        border-bottom: deeppink 20px solid;
+    }
+}
+
+
+.calm {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    background: linear-gradient(orange, yellow);
+    border-radius: 50%;
+    animation: bounce 3s infinite ease-in-out;
+    position: absolute;
+    opacity: 80%;
+}
+
+@keyframes bounce {
+    0% {
+        scale: 90%;
+        rotate: 0;
+    }
+
+    50% {
+        scale: 120%;
+    }
+
+    100% {
+        scale: 90%;
+        rotate: 1turn;
+    }
+}
+
