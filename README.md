@@ -52,14 +52,22 @@ kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 
 
 <h2>week 3</h2>
-<p>De vershillende tests van deze week</p>
+<p>De vershillende tests van deze week. De feedback staat ook in het javascript gedeelte</p>
 <a href="https://codepen.io/IKreike/pen/raaNOdK"> base test</a>
+<p>roze tekst niet te lezen</p><br>
 <a href="https://codepen.io/IKreike/pen/yyyLYjp"> music in the background</a>
+<p>// grootte is goed // text leesbaar // timing met film - //tekst in het midden</p><br>
 <a href="https://codepen.io/IKreike/pen/azzbvaX?editors=1100">links gepositioneerd</a>
+<p>maakt 1 geheel als het op de achtergrond staat(vorige was beter)</p><br>
 <a href="https://codepen.io/IKreike/pen/yyyLYQK"> grote text en music area</a>
+<p> grootte is prima, kleur nog niet</p><br>
 <a href="https://codepen.io/IKreike/pen/oggNjVv"> test met een andere kleur</a>
+<p>// kleuren zijn beter leesbaar // minder belangrijk voor intonatie van de muziek</p><br>
 <a href="https://codepen.io/IKreike/pen/YPPzymy"> tekst en icons</a>
+<p> // leuk idee dat dit ook kan</p><br>
 <a href="https://codepen.io/IKreike/pen/emmYpqQ?editors=1100">test met icoontjes ipv text</a>
+<p> // ook leuk // kleuren?? contrast icoon met achtergrond // de text bij de iconen word niet gemist</p><br>
 
 
 <a href=""></a>
+<p></p>
