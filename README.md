@@ -1,12 +1,23 @@
 # HCD
- A Deaf Womans Music
-
-
+<h1> A Deaf Womans Music </h1>
 <h2>week 1</h2>
-<p></p>
+<p>fotos van de notities die ik het eerste gesprek met darice heb gemaakt, en het gesprek met Mieke vooraf meer in het algemeen</p>
+<img src="./assets/notesMieke.jpg" alt="Notities gesprek Mieke">
+<img src="./assets/notesDarice.jpg" alt="Notities gesprek Darice pt1">
+<img src="./assets/notesDaricept2.jpg" alt="Notities gesprek Darice pt2">
+
+<h2>week 2</h2>
+<p>feedback van mieke: zorg dat het beeld 1 geheel word</p>
+<p>feedback vasilis: 
+vershillende versies met vershillende soorden muziek
+kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 
 <h3> gekregen feedback test 2</h3>
-// specifieke elementen van de muziek of alleen de vibe~
+<p>de tests van deze week:</p>
+<a href="https://codepen.io/IKreike/pen/dPyazXE">Verschillende soorten muziek- test</a>
+<a href="https://codepen.io/IKreike/pen/XJWwojN"> test gebaseert op muziek</a>
+
+<p>// specifieke elementen van de muziek of alleen de vibe~
 // vibe is belangrijker
 // weten welk instrument welk onderdeel is?
 // Als dat belangrijk is, kun je misschien hetzelfde doen zoals er met de blaffende honden gedaan werd, namelijk een hond(instrument) laten zien.
@@ -32,23 +43,12 @@
 
 // tips voor anderen (die miss ook leuk zijn voor mij)
 // comic like sounds (look at the first batman)
-// fonts: sans-sariv heeft voorkeur
+// fonts: sans-sariv heeft voorkeur </p>
 
 
-<h3> bronnen:</h3>
-<p>heb een bron gezocht over kleurgebruik in de muziek</p>
-<a href="https://studentmusicorganizer.com/blogs/main/14032261-the-colours-of-music#:~:text=PINK%20for%20forte%20(loud)%20and,colour%20for%20a%20quiet%20sound."></a>
-
-https://stackoverflow.com/questions/26986129/play-multiple-css-animations-at-the-same-time
 
 
-<p></p>
 
-<h2>week 2</h2>
-<p>feedback van mieke: zorg dat het beeld 1 geheel word</p>
-<p>feedback vasilis: 
-vershillende versies met vershillende soorden muziek
-kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 
 
 <h2>week 3</h2>
@@ -71,3 +71,8 @@ kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 
 <a href=""></a>
 <p></p>
+
+<h3> bronnen:</h3>
+<a href="https://studentmusicorganizer.com/blogs/main/14032261-the-colours-of-music#:~:text=PINK%20for%20forte%20(loud)%20and,colour%20for%20a%20quiet%20sound."> heb een bron gezocht over kleurgebruik in de muziek</a>
+
+<a href="https://stackoverflow.com/questions/26986129/play-multiple-css-animations-at-the-same-time"></a>
