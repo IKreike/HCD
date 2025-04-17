@@ -6,6 +6,10 @@
 <img src="./assets/notesDarice.jpg" alt="Notities gesprek Darice pt1">
 <img src="./assets/notesDaricept2.jpg" alt="Notities gesprek Darice pt2">
 
+<p>Ik heb besloten om me te gaan richten op het visualiseren van de muziek, omdat dat het ding is wat het meest gemist word. (Ook gedeeltelijk doordat ik denk dat iedereen met ondertiteling gaat werken) Ik vind het leuk om met het idee van een geluidsgrafiek (stenograph?/ heartbeatmonitor) te werken, omdat darice het misschien ook kan relateren aan geluidstrillingen die ze misschien kan voelen.</p>
+
+<p>Feedback vasilis: Je hoeft niet perse een stenograph te maken, het kan ook gewoon een dingetje zijn wat op en neer gaat -> Ik ben na deze feedback gaan experimenteren met verschillende manieren van geluid, niet alleen op en neer maar ook in en uitzoemen, draaien en diktes van lijnen</p>
+
 <h2>week 2</h2>
 <p>feedback van mieke: zorg dat het beeld 1 geheel word</p>
 <p>feedback vasilis: 
@@ -45,7 +49,16 @@ kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 // comic like sounds (look at the first batman)
 // fonts: sans-sariv heeft voorkeur </p>
 
+<h3>Conclusie testen: </h3>
+<ol>
+<li> zet er algemene tekst bij voor de beschrijving van de muziek</li>
+<li> Als de specifieke instrumenten belangrijk zijn kun je misschien een beschrijving of plaatje van het instrument erbij zetten</li>
+<li> De vibe van de muziek is belangrijker dan het ritme</li>
+<li> Als je niks erbij zet ziet alles er eruit als een bas omdat dat een heel bekend instrument is</li>
+<li> sans- serif is een beter(fijner) font</li>
+<ol>
 
+<p>Ik heb uiteindelijk niet besloten om nog niet in de code van vasilis te duiken omdat het me een hele klus leek voor relatief weinig opbrengst. Ik kan wel bijvoorbeeld met autoplay wat proberen te fixen, zodat het alsnog op de goede timing loopt</p>
 
 
 
@@ -68,6 +81,19 @@ kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 <a href="https://codepen.io/IKreike/pen/emmYpqQ?editors=1100">test met icoontjes ipv text</a>
 <p> // ook leuk // kleuren?? contrast icoon met achtergrond // de text bij de iconen word niet gemist</p><br>
 
+<h3>Conclusie testen: </h3>
+<ol>
+<li> muziek op de achtergrond werkt het beste omdat het dan 1 is met de film</li>
+<li> De specifieke kleuren maken niet uit als ze maar genoeg contrast hebben</li>
+<li> Icoontjes zijn niet storend en er word geen informatie gemist als je de tekst vervangt</li>
+<li> beschrijvingstekst in het midden</li>
+<ol>
+
+<p>feedback van vasilis: vergeet niet te testen, ook in de laatste iteratie. </p>
+<p>plannen voor deze week: langer fragment, verschillende onderdelen aan elkaar maken </p>
+
+
+
 
 <a href=""></a>
 <p></p>
@@ -76,3 +102,5 @@ kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 <a href="https://studentmusicorganizer.com/blogs/main/14032261-the-colours-of-music#:~:text=PINK%20for%20forte%20(loud)%20and,colour%20for%20a%20quiet%20sound."> heb een bron gezocht over kleurgebruik in de muziek</a>
 
 <a href="https://stackoverflow.com/questions/26986129/play-multiple-css-animations-at-the-same-time"></a>
+
+<p>En de grootste bron is natuurlijk Darice(en mieke een klein beetje)</p>
