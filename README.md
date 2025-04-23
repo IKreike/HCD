@@ -56,7 +56,7 @@ kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 <li> De vibe van de muziek is belangrijker dan het ritme</li>
 <li> Als je niks erbij zet ziet alles er eruit als een bas omdat dat een heel bekend instrument is</li>
 <li> sans- serif is een beter(fijner) font</li>
-<ol>
+</ol>s
 
 <p>Ik heb uiteindelijk niet besloten om nog niet in de code van vasilis te duiken omdat het me een hele klus leek voor relatief weinig opbrengst. Ik kan wel bijvoorbeeld met autoplay wat proberen te fixen, zodat het alsnog op de goede timing loopt</p>
 
@@ -64,17 +64,17 @@ kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 <h2>week 3</h2>
 <p>De vershillende tests van deze week. De feedback staat ook in het javascript gedeelte</p>
 <a href="https://codepen.io/IKreike/pen/raaNOdK"> base test</a>
-<p>roze tekst niet te lezen</p><br>
+<p>roze tekst niet te lezen</p>
 <a href="https://codepen.io/IKreike/pen/yyyLYjp"> music in the background</a>
-<p>// grootte is goed // text leesbaar // timing met film - //tekst in het midden</p><br>
+<p>// grootte is goed // text leesbaar // timing met film - //tekst in het midden</p>
 <a href="https://codepen.io/IKreike/pen/azzbvaX?editors=1100">links gepositioneerd</a>
-<p>maakt 1 geheel als het op de achtergrond staat(vorige was beter)</p><br>
+<p>maakt 1 geheel als het op de achtergrond staat(vorige was beter)</p>
 <a href="https://codepen.io/IKreike/pen/yyyLYQK"> grote text en music area</a>
-<p> grootte is prima, kleur nog niet</p><br>
+<p> grootte is prima, kleur nog niet</p>
 <a href="https://codepen.io/IKreike/pen/oggNjVv"> test met een andere kleur</a>
-<p>// kleuren zijn beter leesbaar // minder belangrijk voor intonatie van de muziek</p><br>
+<p>// kleuren zijn beter leesbaar // minder belangrijk voor intonatie van de muziek</p>
 <a href="https://codepen.io/IKreike/pen/YPPzymy"> tekst en icons</a>
-<p> // leuk idee dat dit ook kan</p><br>
+<p> // leuk idee dat dit ook kan</p>
 <a href="https://codepen.io/IKreike/pen/emmYpqQ?editors=1100">test met icoontjes ipv text</a>
 <p> // ook leuk // kleuren?? contrast icoon met achtergrond // de text bij de iconen word niet gemist</p>
 
@@ -133,4 +133,4 @@ kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 <a href="https://stackoverflow.com/questions/26986129/play-multiple-css-animations-at-the-same-time"> Stacking animations</a>
 <a href="https://webaim.org/resources/contrastchecker/">Contrast checker</a>
 <a href="https://www.nemokennislink.nl/publicaties/synesthesie-kleuren-horen-klanken-zien/">Over hoe kleuren en geluiden gerelateerd zijn</a>
-<p>En de grootste bron is natuurlijk Darice(en mieke een klein beetje)</p>
+<p>En de grootste bron is natuurlijk Darice(en Mieke natuurlijk)</p>
