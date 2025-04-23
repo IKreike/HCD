@@ -76,7 +76,7 @@ kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 <a href="https://codepen.io/IKreike/pen/YPPzymy"> tekst en icons</a>
 <p> // leuk idee dat dit ook kan</p><br>
 <a href="https://codepen.io/IKreike/pen/emmYpqQ?editors=1100">test met icoontjes ipv text</a>
-<p> // ook leuk // kleuren?? contrast icoon met achtergrond // de text bij de iconen word niet gemist</p><br>
+<p> // ook leuk // kleuren?? contrast icoon met achtergrond // de text bij de iconen word niet gemist</p>
 
 <h3>Conclusie testen: </h3>
 <ol>
@@ -84,14 +84,14 @@ kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 <li> De specifieke kleuren maken niet uit als ze maar genoeg contrast hebben</li>
 <li> Icoontjes zijn niet storend en er word geen informatie gemist als je de tekst vervangt</li>
 <li> beschrijvingstekst in het midden</li>
-<ol>
+</ol>
 
 <p>feedback van vasilis: vergeet niet te testen, ook in de laatste iteratie. </p>
 <p>plannen voor deze week: langer fragment, verschillende onderdelen aan elkaar maken </p>
 
 <h2>week 4</h2>
 <p>De test van deze week:</p>
-<a href="https://codepen.io/IKreike/pen/qEEqXBd?editors=0010"></a>
+<a href="https://codepen.io/IKreike/pen/qEEqXBd?editors=0010"> Link naar de week 4 test</a>
 <p>Ik heb voor de test deze week de verschillende tests en ideeën uit eerdere weken verwerkt in een langere clip. Dit heb ik gedaan om een beter beeld te krijgen over hoe een hele film eruit zou kunnen zien met deze effecten, maar ook om de verschillende effecten te kunnen laten zien.</p>
 
 <h3>Keuzes en veranderingen</h3>
@@ -127,12 +127,10 @@ kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 </ul>
 
 
-<a href=""></a>
-<p></p>
-
 <h3> bronnen:</h3>
 <a href="https://studentmusicorganizer.com/blogs/main/14032261-the-colours-of-music#:~:text=PINK%20for%20forte%20(loud)%20and,colour%20for%20a%20quiet%20sound."> heb een bron gezocht over kleurgebruik in de muziek</a>
 
-<a href="https://stackoverflow.com/questions/26986129/play-multiple-css-animations-at-the-same-time"></a>
-
+<a href="https://stackoverflow.com/questions/26986129/play-multiple-css-animations-at-the-same-time"> Stacking animations</a>
+<a href="https://webaim.org/resources/contrastchecker/">Contrast checker</a>
+<a href="https://www.nemokennislink.nl/publicaties/synesthesie-kleuren-horen-klanken-zien/">Over hoe kleuren en geluiden gerelateerd zijn</a>
 <p>En de grootste bron is natuurlijk Darice(en mieke een klein beetje)</p>
