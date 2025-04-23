@@ -61,9 +61,6 @@ kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 <p>Ik heb uiteindelijk niet besloten om nog niet in de code van vasilis te duiken omdat het me een hele klus leek voor relatief weinig opbrengst. Ik kan wel bijvoorbeeld met autoplay wat proberen te fixen, zodat het alsnog op de goede timing loopt</p>
 
 
-
-
-
 <h2>week 3</h2>
 <p>De vershillende tests van deze week. De feedback staat ook in het javascript gedeelte</p>
 <a href="https://codepen.io/IKreike/pen/raaNOdK"> base test</a>
@@ -92,7 +89,42 @@ kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 <p>feedback van vasilis: vergeet niet te testen, ook in de laatste iteratie. </p>
 <p>plannen voor deze week: langer fragment, verschillende onderdelen aan elkaar maken </p>
 
+<h2>week 4</h2>
+<p>De test van deze week:</p>
+<a href="https://codepen.io/IKreike/pen/qEEqXBd?editors=0010"></a>
+<p>Ik heb voor de test deze week de verschillende tests en ideeën uit eerdere weken verwerkt in een langere clip. Dit heb ik gedaan om een beter beeld te krijgen over hoe een hele film eruit zou kunnen zien met deze effecten, maar ook om de verschillende effecten te kunnen laten zien.</p>
 
+<h3>Keuzes en veranderingen</h3>
+<ol>
+<li>Ik heb felle kleuren gekozen voor het instrumentele gedeelte voor een goed contrast met de icoontjes en uit eerdere feedbacksessies was uitgekomen dat de kleur per instrument niet bepalend was voor het gevoel erbij</li>
+<li>Ik heb extra tijd besteed aan het controleren van de timing van de animaties zodat hetzelfde snelle en verwarrende gevoel wat gehoord word ook mee word gegeven in beeld.</li>
+<li>De animaties zijn zeer kleurrijk, ikzelf vind het passend omdat het geluid ook is in sterk contrast is tegen de spanning opbouwende sfeer die hier hangt (waardoor het juist versterkt). Het is handig om te testen of dit ook overkomt met het beeld</li>
+</ol>
+<h3>Feedback testen: (met mieke)</h3>
+<p> // voelt heel snel aan (klopt als dat ook in het echt zo is)
+
+// caption ver onderaan- later duidelijk wat het is
+// interressante combinatie 
+
+// interressante overweging -. belangrijk verschil geluid en gezegde bv: met haken[] voor geluid
+
+// geeft goed het gevoel bvan de scene mee- nieuwe interressante manier
+
+// let op het contrast als je de tekst naar boven verplaatst</p>
+
+<h3>Conclusies testen: </h3>
+<ol>
+<li>Het duurt even voordat er begrip is voor wat de animaties zijn, mede doordat de ondertiteling zeer laag staat. Het is handiger om deze direct(er) onder de video zelf te zetten. (na vraag over verwarring muziektext en gesproken text:) Als je de muziek in haakjes zet zal dat probleem minder/ niet zijn. Zorg als je dit doet wel nog steeds voor een goed contrast met de text</li>
+<li>Leuke manier om dit te doen, is nieuw en interressant. </li>
+</ol>
+
+<h2>Eindconclusie </h2>
+<p>wat ik nog zou doen als ik extra tijd had:</p>
+<ul>
+<li>Ondertiteling toevoegen om de combinatie met tekst en de animaties te kunnen testen, en het geheel functioneler te maken.</li>
+<li>De setup van Vasilis integreren zodat het je door kan spoelen en de animaties op pauze kan zetten en de animaties daar rekening mee houden.</li>
+<li>Experimenteren met een andere sfeer muziek, en kijken of dat ook goed overkomt. </li>
+</ul>
 
 
 <a href=""></a>

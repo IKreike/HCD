@@ -1,50 +1,57 @@
 body {
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
-    /* flex-direction: row; */
-
     display: grid;
-    /* grid-template-columns: 1fr; */
-    /* grid-template-rows: 1fr; */
-    grid-area: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     place-items: center;
-    /* place-content: center; */
 
     height: 100dvh;
     width: 100dvw;
 
     margin: 0;
     padding: 0;
+    
 
     --ease-steps: steps(50);
 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(18, 18, 49);
 }
 
-
+/* de box waar het instaat */
 .soundwave {
-    width: 315px;
-    height: 315px;
-    border: black 1px solid;
-    position: relative;
+    width: 100vw;
+    height: 90vh;
+      /* border: yellow 3px solid; */
 
     margin-bottom: 3em;
 
-    background-color: rgb(18, 18, 49);
+    position: absolute;
+    top: 0;
+    left: 0;
 
-    p{
-        animation:fade .1s linear 5s 1 forwards;
+    p {
+        /*     animation: fade 0.1s linear 3s 1 forwards; */
+        color: white;
+        font-weight: 600;
+        text-align: center;
     }
+
+    z-index: -2;
 }
 
-.opbouw{
+/* Het eerste deel van de animatie (algemeen) */
+.opbouw {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    animation:fade .1s linear 5s 1 forwards;
+    animation: fade 0.1s linear 3s 1 forwards;
+    font-size: 3em;
+
+    +p {
+        animation: fade 0.1s linear 3s 1 forwards;
+    }
 }
 
 @keyframes fade {
@@ -57,14 +64,16 @@ body {
         scale: 0;
     }
 }
+
 .base {
     width: 100%;
     height: 100px;
-    background-color: rgb(81, 11, 46);
-    animation: wave-grow 2s both linear, base-updown .2s var(--ease-steps) infinite alternate;
+    background-color: yellowgreen;
+    animation: wave-grow 1.5s both linear,
+        base-updown 0.2s var(--ease-steps) infinite alternate;
     position: absolute;
 
-    color:white ;
+    color: white;
     font-size: 1.2em;
     font-weight: 600;
 }
@@ -75,9 +84,10 @@ body {
     }
 
     100% {
-        transform: scaleY(.9);
+        transform: scaleY(0.9);
     }
 }
+
 @keyframes base {
     0% {
         height: 170px;
@@ -117,44 +127,53 @@ body {
     height: 200px;
     border-top: #d96507 6px solid;
     border-bottom: #d96507 6px solid;
-    animation: wave-updown .2s infinite var(--ease-steps) alternate, wave-grow both 2s var(--ease-steps) 2s;
+    animation: wave-updown 0.2s infinite var(--ease-steps) alternate,
+        wave-grow both 1.5s var(--ease-steps) 1.5s;
     position: absolute;
     opacity: 80%;
 
     font-size: 1.2em;
     font-style: italic;
     color: hotpink;
-
 }
 
 @keyframes wave-grow {
     0% {
         height: 5%;
     }
+
     20% {
         height: 20%;
     }
+
     30% {
         height: 10%;
     }
+
     40% {
         height: 40%;
     }
+
     50% {
         height: 15%;
     }
+
     60% {
         height: 60%;
     }
+
     70% {
         height: 20%;
     }
+
     80% {
         height: 80%;
     }
+
     90% {
         height: 25%;
     }
+
     100% {
         height: 100%;
     }
@@ -162,25 +181,14 @@ body {
 
 @keyframes wave-updown {
     0% {
-        border-top: hotpink 6px solid;
-        border-bottom: hotpink 6px solid;
+        border-top: white 6px solid;
+        border-bottom: white 6px solid;
     }
+
     100% {
         border-top: deeppink 20px solid;
         border-bottom: deeppink 20px solid;
     }
-}
-
-
-.calm {
-    width: 50%;
-    height: 50%;
-    background-color: yellow;
-    background: linear-gradient(orange, yellow);
-    border-radius: 50%;
-    animation: bounce 3s infinite ease-in-out;
-    position: absolute;
-    opacity: 80%;
 }
 
 @keyframes bounce {
@@ -199,3 +207,114 @@ body {
     }
 }
 
+
+
+/* circus stuff!!!! */
+.circus {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fade .1s linear 11s 1 forwards;
+    font-size: 3em;
+
+    +p {
+        animation: fade .1s linear 11s 1 forwards, appear 1s 4s 1 linear backwards;
+        ;
+    }
+}
+
+
+.tent {
+    animation: circus 8s linear infinite forwards, bounce 5s infinite ease-in-out, circus-visibility 1s 5s 1 linear backwards;
+    width: min-content;
+
+    border-radius: 50%;
+    height: 100%;
+    aspect-ratio: 1;
+    max-height: 100%;
+    background-color: yellow;
+    background: repeating-conic-gradient(white 0 5%, red 5% 10%);
+    position: absolute;
+}
+
+@keyframes circus {
+    0% {
+        transform: rotate(0turn);
+    }
+
+    100% {
+        transform: rotate(-1turn);
+    }
+}
+
+@keyframes circus-visibility {
+    0% {
+        scale: 0;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
+
+.lights {
+    /*   width: 120%;
+    height: 120%; */
+    height: 100%;
+    aspect-ratio: 1;
+    max-height: 100%;
+    background-color: yellow;
+    background: radial-gradient(yellow 10%, transparent 50%);
+    border-radius: 50%;
+    animation: flickr .2s infinite ease-in-out, appear 1s 3.5s 1 linear backwards;
+    position: absolute;
+}
+
+@keyframes flickr {
+    0% {
+        scale: 90%;
+    }
+
+    100% {
+        scale: 120%;
+    }
+}
+
+@keyframes appear {
+    0% {
+        scale: 0;
+        /*     opacity: 1; */
+    }
+
+    100% {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+
+/* crowd stuff */
+.crowd {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*   animation: fade 0.1s linear 3s 1 forwards; */
+    font-size: 3em;
+
+    +p {
+        animation: appear 1s 12s 1 linear backwards, fade 0.1s linear 15s 1 forwards;
+    }
+}
+
+.people {
+    height: 100%;
+    aspect-ratio: 1;
+    max-height: 100%;
+    background-color: yellow;
+    animation: bounce 0.3s linear infinite forwards, appear 1s 12s 1 linear backwards, fade 0.1s linear 15s 1 forwards;
+    background: conic-gradient(red, orange, yellow, green, blue);
+}
