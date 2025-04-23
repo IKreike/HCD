@@ -20,6 +20,8 @@ kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 <p>de tests van deze week:</p>
 <a href="https://codepen.io/IKreike/pen/dPyazXE">Verschillende soorten muziek- test</a>
 <a href="https://codepen.io/IKreike/pen/XJWwojN"> test gebaseert op muziek</a>
+<img src="./assets/week 2- 2.1.png" alt="probeersel 1">
+<img src="./assets/week 2-2.2.png" alt="probeersel 2">
 
 <p>// specifieke elementen van de muziek of alleen de vibe~
 // vibe is belangrijker
@@ -56,13 +58,13 @@ kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 <li> De vibe van de muziek is belangrijker dan het ritme</li>
 <li> Als je niks erbij zet ziet alles er eruit als een bas omdat dat een heel bekend instrument is</li>
 <li> sans- serif is een beter(fijner) font</li>
-</ol>s
+</ol>
 
 <p>Ik heb uiteindelijk niet besloten om nog niet in de code van vasilis te duiken omdat het me een hele klus leek voor relatief weinig opbrengst. Ik kan wel bijvoorbeeld met autoplay wat proberen te fixen, zodat het alsnog op de goede timing loopt</p>
 
 
 <h2>week 3</h2>
-<p>De vershillende tests van deze week. De feedback staat ook in het javascript gedeelte</p>
+<p>De verschillende tests van deze week. De feedback staat ook in het javascript gedeelte</p>
 <a href="https://codepen.io/IKreike/pen/raaNOdK"> base test</a>
 <p>roze tekst niet te lezen</p>
 <a href="https://codepen.io/IKreike/pen/yyyLYjp"> music in the background</a>
@@ -77,6 +79,8 @@ kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 <p> // leuk idee dat dit ook kan</p>
 <a href="https://codepen.io/IKreike/pen/emmYpqQ?editors=1100">test met icoontjes ipv text</a>
 <p> // ook leuk // kleuren?? contrast icoon met achtergrond // de text bij de iconen word niet gemist</p>
+<img src="./assets/Screenshot 2025-04-23 at 14.40.21.png" alt="">
+<img src="./assets/Screenshot 2025-04-23 at 14.41.10.png" alt="">
 
 <h3>Conclusie testen: </h3>
 <ol>
@@ -94,6 +98,9 @@ kijk even naar de doorgestuurde code voor hulp met timestamps</p>
 <a href="https://codepen.io/IKreike/pen/qEEqXBd?editors=0010"> Link naar de week 4 test</a>
 <p>Ik heb voor de test deze week de verschillende tests en ideeën uit eerdere weken verwerkt in een langere clip. Dit heb ik gedaan om een beter beeld te krijgen over hoe een hele film eruit zou kunnen zien met deze effecten, maar ook om de verschillende effecten te kunnen laten zien.</p>
 
+<img src="./assets/week 4- music.png" alt="visualise the music">
+<img src="./assets/week 4- circus.png" alt="visualise circus music">
+<img src="./assets/wee 4- crowd.png" alt="visual a happy crowd">
 <h3>Keuzes en veranderingen</h3>
 <ol>
 <li>Ik heb felle kleuren gekozen voor het instrumentele gedeelte voor een goed contrast met de icoontjes en uit eerdere feedbacksessies was uitgekomen dat de kleur per instrument niet bepalend was voor het gevoel erbij</li>
